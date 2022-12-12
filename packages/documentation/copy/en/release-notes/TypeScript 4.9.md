@@ -241,7 +241,7 @@ class Person {
     get name() {
         return this.#__name;
     }
-    set name(value: string) {
+    set name(name: string) {
         this.#__name = name;
     }
 
